@@ -257,6 +257,17 @@ footer {
     padding:15px;
 }
 
+.titulo-quienes {
+    padding:20px;
+    font-size: 40px;
+}
+
+.texto-quienes {
+    padding: 10px;
+    margin-bottom:30px;
+    font-size: 25px;
+}
+
 .grid-containerquienes-2 {
     background-color: #0097B2 ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -319,7 +330,8 @@ footer {
                                      /* MUSCULACION */
 
 
-                                    /* TITULO */
+
+
 .grid-containerservicios1 {
     grid-column: 1/4;
     color:white;
@@ -338,8 +350,7 @@ footer {
     
 }
 
-
-                                    /* MUSCULACION */
+                                   
 .grid-containerservicios2 {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -348,11 +359,12 @@ footer {
     align-self: center;
     margin-top:15px;
     margin-left:40px;
+    background-color: #0097B2;
+    align-items: center;
 }
 
 .musculacion-titulo {
     font-size: 28px;
-    align-self: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
     margin-top:20px;
@@ -400,13 +412,13 @@ footer {
     flex-direction: column;
     align-self: center;
     margin-top:10px;
+    align-items: center;
 }
 
 .titulo-nutricion {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     display:flex;
-    align-self: center;
     color:black;
     margin-top:40px;
     margin-bottom: 10px;
@@ -427,7 +439,6 @@ footer {
 .texto-nutricion {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
-    align-self: center;
     font-size: 20px;
     padding:15px;
     border: solid 1px black;
@@ -482,7 +493,6 @@ footer {
     font-size: 30px;
     display: flex;
     color:white;
-    align-self: center;
     border: solid 1px white;
     border-radius: 8px;
     padding: 10px;
