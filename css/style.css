@@ -137,7 +137,7 @@ footer {
     background-color: #202128;
     
 }
-
+                                        /* PARTE DE ARRIBA */
 .grid-containerindex-1 {
     background-color: #202128;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -148,7 +148,7 @@ footer {
     color:#FAFAFA;
     
 }
-
+                                       /* IZQUIERDA */
 .grid-containerindex-2 {
     background-color: #202128;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -171,27 +171,32 @@ footer {
      margin: 80px 30px 30px 30px;
 }
 
+                              /* CONTACTO*/
 .boton-contacto {
     background-color: #0097B2 ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     margin:20px;
-    padding: 10px;
+    padding: 15px;
     border:none;
     border-radius: 10px;
-    
 }
 
 .aclaracion-contacto {
-   font-size: 15px;
-   margin-top: 20px;
+   font-size: 20px;
+   margin: 20px 60px;
+   border: solid 1px white;
+   border-radius: 10px;
+   padding:10px;
 }
-
+                                    /* DERECHA */
 .grid-containerindex-3 {
     background-color: #202128;
     grid-column: 3/5;
 }
 
+
+                            /* IMAGENES */
 .imagen-leiza {
     padding:15px;
     width:300px;
@@ -213,6 +218,7 @@ footer {
     
 }
 
+                                 /* ABAJO */
 .grid-containerindex-4 {
     background-color: #0097B2;
     grid-column: 1/5;
@@ -236,6 +242,10 @@ footer {
 }
 
 
+
+
+
+
                                         /* BODY QUIENES SOMOS */
 
 
@@ -246,6 +256,7 @@ footer {
     background-color: #202128;
 }
 
+                                        /* PARTE DE ARRIBA DE TODO */
 .grid-containerquienes-1 {
     background-color: #202128;
     grid-column: 1/5;
@@ -253,21 +264,21 @@ footer {
     align-self: center;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding:15px;
 }
 
 .titulo-quienes {
-    padding:20px;
-    font-size: 40px;
+    text-decoration: underline 2px;
+    padding:15px;
+    font-size: 35px;
 }
 
 .texto-quienes {
-    padding: 10px;
-    margin-bottom:30px;
+    padding-bottom: 15px;
     font-size: 25px;
 }
 
+
+                                    /* PARTE CENTRAL IZQUIERDA*/
 .grid-containerquienes-2 {
     background-color: #0097B2 ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -283,8 +294,12 @@ footer {
     margin-bottom: 10px;
 }
 
+.texto-quienes1 {
+    border: solid 2px #202128;
+    padding:12px;
+}
 
-
+                                /* PARTE CENTRAL DERECHA */
 .grid-containerquienes-3 {
     background-color: #0097B2;
     grid-column: 3/5;
@@ -301,16 +316,17 @@ footer {
 
 }
 
-.texto-quienes1 {
-    border: solid 2px #202128;
-    padding:12px;
-}
-
 .texto-quienes2 {
     padding:12px;
     border: solid 2px #202128;
     
 }
+
+
+
+
+
+
 
 
 
@@ -330,8 +346,6 @@ footer {
                                      /* MUSCULACION */
 
 
-
-
 .grid-containerservicios1 {
     grid-column: 1/4;
     color:white;
@@ -349,8 +363,7 @@ footer {
     padding: 10px;
     
 }
-
-                                   
+                      
 .grid-containerservicios2 {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -380,13 +393,11 @@ footer {
     align-self: center;
 }
 
-
 .grid-containerservicios2texto {
     grid-column: 2/3;
     grid-row: 2/3;
     margin: 45px;
 }
-
 
 .texto-musculacion {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -499,4 +510,90 @@ footer {
     margin-right: 75px;
     margin-left: 45px;
     margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+                                            /*  NUESTROS COMBOS*/ 
+
+.principal-planes {
+
+    background-color:#202128 ;
+    display:flex;
+    flex-direction: column;
+    padding:30px 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+                                        /* TEXTOS Y TITULOS*/
+.principal-planes h1 {
+    padding:15px;
+    font-size: 40px;
+    text-decoration: underline 2px;
+}
+
+.principal-planes h3 {
+    padding:20px;
+    font-size: 30px;
+    text-decoration: underline 2px;
+}
+
+.principal-planes h4 {
+    padding:15px;
+    font-size: 25px;
+    border: solid 2px white;
+    margin: 15px 550px;
+    border-radius: 8px;
+    background-color: #0097B2;
+}
+
+.principal-planes p {
+    padding:10px;
+    font-size: 22px;
+}
+
+                                        /* IMAGENES*/
+.secundaria_planes {
+    display:flex;
+    justify-content: space-around;
+    background-color: #0097B2;
+    padding:20px;
+}
+
+.planes-musculacion {
+    width:550px;
+    height: 350px;
+    border: solid 2px black;
+    border-radius: 8px;
+    border-style: dotted;
+    padding:15px;
+
+}
+
+.planes-nutricion {
+    width:550px;
+    height: 350px;
+    border: solid 2px black;
+    border-radius: 8px;
+    border-style: dotted;
+    padding:15px;
+}
+
+.planes-masajes {
+    width:550px;
+    height: 350px;
+    border: solid 2px black;
+    border-radius: 8px;
+    border-style: dotted;
+    padding:15px;
 }
