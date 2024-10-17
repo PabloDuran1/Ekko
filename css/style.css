@@ -100,25 +100,35 @@ footer {
 .formulario-datos {
     display:flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 20px;
     border: solid 2px #0097B2;
     border-radius:10px;
     align-items:center;
     justify-content:center;
-    width:500px;
+    width:600px;
     margin-top:15px;
-    padding:15px;
+    padding:20px;
 }
 
 .boton-datos {
     background-color: #0097B2;
+    color:#202128;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     margin-top:10px;
-    padding: 10px;
+    padding: 12px;
     border:none;
     border-radius: 10px;
+    text-decoration:none;
+
 }
+
+.boton-datos:hover {
+    background-color: white;
+    color: #0097B2;
+    
+}
+
 
 
 
@@ -137,6 +147,8 @@ footer {
     background-color: #202128;
     
 }
+
+
                                         /* PARTE DE ARRIBA */
 .grid-containerindex-1 {
     background-color: #202128;
@@ -148,17 +160,6 @@ footer {
     color:#FAFAFA;
     
 }
-                                       /* IZQUIERDA */
-.grid-containerindex-2 {
-    background-color: #202128;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    grid-column: 1/3;
-    border:solid 2px #0097B2;
-    border-radius:10px;
-    margin-left: 100px;
-    margin-top:20px;
-    margin-bottom:50px;
-    }
 
 .containerindex-titulo {
     border: solid 2px #0097B2 ;
@@ -166,29 +167,89 @@ footer {
     border-radius:10px ;
 }
 
+                                      
+                                                /* IZQUIERDA */
+
+
+
+.grid-containerindex-2 {
+    background-color: #202128;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-column: 1/3;
+    border:solid 2px #0097B2;
+    border-radius:10px;
+    margin:50px;
+    }
+
 .texto-atencion {
-     font-size: 20px;
-     margin: 80px 30px 30px 30px;
+     font-size: 30px;
+     margin: 80px 30px 60px 30px;
+     border: solid 1px white;
+     border-radius: 10px;
+     padding:10px;
+
 }
 
-                              /* CONTACTO*/
+
+
+                                  /* CONTACTO*/
 .boton-contacto {
-    background-color: #0097B2 ;
+    background-color: #0097B2;
+    color:#202128;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    margin:20px;
-    padding: 15px;
+    font-size: 22px;
+    padding: 12px;
     border:none;
     border-radius: 10px;
+    text-decoration:none;
+}
+
+.boton-contacto:hover {
+    background-color: white;
+    color: #0097B2;
+
 }
 
 .aclaracion-contacto {
    font-size: 20px;
-   margin: 20px 60px;
+   margin: 3em;
    border: solid 1px white;
    border-radius: 10px;
    padding:10px;
 }
+
+
+
+
+                                    /* PAGINA CONCACTO */
+
+.contacto-pag {
+    background-color:#0097B2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+
+}
+
+.titulo-pag {
+    font-size: 80px;
+    padding:30px;
+
+}
+
+.texto-pag {
+    font-size: 50px;
+    padding:30px;
+    margin-left: 20%;
+
+}
+
+
+
+
+
+
                                     /* DERECHA */
 .grid-containerindex-3 {
     background-color: #202128;
@@ -196,7 +257,9 @@ footer {
 }
 
 
-                            /* IMAGENES */
+
+                                   /* IMAGENES */
+
 .imagen-leiza {
     padding:15px;
     width:300px;
@@ -217,6 +280,8 @@ footer {
     border-style:dotted;   
     
 }
+
+
 
                                  /* ABAJO */
 .grid-containerindex-4 {
@@ -246,6 +311,7 @@ footer {
 
 
 
+
                                         /* BODY QUIENES SOMOS */
 
 
@@ -255,6 +321,8 @@ footer {
     grid-template-rows: 150px 2fr;
     background-color: #202128;
 }
+
+
 
                                         /* PARTE DE ARRIBA DE TODO */
 .grid-containerquienes-1 {
@@ -278,6 +346,8 @@ footer {
 }
 
 
+
+
                                     /* PARTE CENTRAL IZQUIERDA*/
 .grid-containerquienes-2 {
     background-color: #0097B2 ;
@@ -294,10 +364,13 @@ footer {
     margin-bottom: 10px;
 }
 
+
 .texto-quienes1 {
     border: solid 2px #202128;
     padding:12px;
 }
+
+
 
                                 /* PARTE CENTRAL DERECHA */
 .grid-containerquienes-3 {
@@ -341,6 +414,7 @@ footer {
     align-items: center;
     background-color: #202128;
 }
+
 
 
                                      /* MUSCULACION */
@@ -413,6 +487,10 @@ footer {
 
 }
 
+
+
+
+
                                         /* NUTRICION */
 
 .grid-containerservicios3 {
@@ -459,6 +537,9 @@ footer {
    
 
 }
+
+
+
 
 
                                         /* MASAJES */
@@ -520,8 +601,6 @@ footer {
 
 
 
-
-
                                             /*  NUESTROS COMBOS*/ 
 
 .principal-planes {
@@ -570,17 +649,7 @@ footer {
     padding:20px;
 }
 
-.planes-musculacion {
-    width:550px;
-    height: 350px;
-    border: solid 2px black;
-    border-radius: 8px;
-    border-style: dotted;
-    padding:15px;
-
-}
-
-.planes-nutricion {
+.planes-musculacion, .planes-nutricion, .planes-masajes {
     width:550px;
     height: 350px;
     border: solid 2px black;
@@ -589,11 +658,3 @@ footer {
     padding:15px;
 }
 
-.planes-masajes {
-    width:550px;
-    height: 350px;
-    border: solid 2px black;
-    border-radius: 8px;
-    border-style: dotted;
-    padding:15px;
-}
