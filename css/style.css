@@ -230,6 +230,7 @@ input:focus {
    border: solid 1px white;
    border-radius: 10px;
    padding:10px;
+
 }
 
 
@@ -672,3 +673,19 @@ input:focus {
     padding:15px;
 }
 
+
+
+
+
+
+
+                                        /* NUESTROS ALUMNOS*/
+
+
+.container-imagenes {
+    background-color: #0097B2;
+}
+
+.contenedor-abajo  {
+    background-color: #0097B2;
+}
