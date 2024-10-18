@@ -42,6 +42,7 @@ header {
     display:flex;
     align-items: center;
     height:150px;
+    justify-content: center;
 }
 
 header a {
@@ -53,29 +54,27 @@ header a {
 
 .todos-los-links {
     background-color: #0097B2;
-    margin-left: 20px;
+
 }
 
 .logo-header {
-    margin-left:50px;
     padding:10px;
     background-color: #0097B2;
-    
 }
 
 .logo-ekko {
-    width:150px;
+    width:130px;
     padding:10px;
 }
 
 .lista-navegable {
     list-style: none;
     display:flex;
+    padding:25px;
 }
 
 .lista-navegable li {
     padding:25px;
-    display: flex;
 }
 
 
@@ -640,33 +639,33 @@ input:focus {
     padding:30px 150px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: CENTER;
-
 }
 
 
                                         /* TEXTOS Y TITULOS*/
-.principal-planes h1 {
+.titulo-planes {
     padding:15px;
     font-size: 40px;
     text-decoration: underline 2px;
 }
 
-.principal-planes h3 {
+.oportunidad-planes {
     padding:20px;
     font-size: 30px;
     text-decoration: underline 2px;
 }
 
-.principal-planes h4 {
+.combos-planes{
     padding:15px;
     font-size: 25px;
     border: solid 2px white;
-    margin: 15px 550px;
     border-radius: 8px;
     background-color: #0097B2;
+    margin:auto;
+    
 }
 
-.principal-planes p {
+.texto-planes{
     padding:10px;
     font-size: 22px;
 }
@@ -704,3 +703,5 @@ input:focus {
 .contenedor-abajo  {
     background-color: #0097B2;
 }
+
+
