@@ -80,21 +80,28 @@ footer {
     color: white;
     font-size: 16px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:50px;
+    padding:30px;
     display:flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    border-top:#0097B2 solid 2px;
 }
 
 .footer-contacto {
     padding:5px;
-    font-size:25px;
+    font-size:35px;
+    border: solid 1px #0097B2;
+    border-radius: 10px;
+    margin-bottom:20px;
 }
 
 .datos-footer {
     padding:15px;
-    font-size:20px;
+    font-size:25px;
+    border: solid 1px #0097B2;
+    border-radius: 10px;
+    margin-bottom:20px;
 }
 
 .formulario-datos {
