@@ -223,22 +223,22 @@ input:focus {
     background-color: #0097B2;
     color:#202128;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
-    padding: 12px;
+    font-size: 35px;
+    padding: 15px;
     border:none;
     border-radius: 10px;
     text-decoration:none;
     transition: 1s;
 }
 
-.boton-contacto:hoover {
+.boton-contacto:hover {
     background-color: white;
     color: #0097B2;
 
 }
 
 .aclaracion-contacto {
-   font-size: 20px;
+   font-size: 25px;
    margin: 3em;
    border: solid 1px white;
    border-radius: 10px;
@@ -294,7 +294,7 @@ input:focus {
     height: 350px;
     border:#0097B2 solid 2px;
     border-radius: 10px;
-    margin-top:20px;
+    margin-top:100px;
     margin-bottom: 70px;
     border-style:dotted;
 }
@@ -884,11 +884,13 @@ input:focus {
 
 
 @media (min-width:375px) and (max-width: 424px) {
-* {
+   
+   
+    * {
         padding:0;
         margin:0;
         box-sizing: border-box;
-    }
+        }
     
     header {
         flex-direction: column;
@@ -903,6 +905,7 @@ input:focus {
     }
     
     .sticky {
+        font-size: 1.2rem;
         width:100%;
     }
 
@@ -1039,7 +1042,7 @@ input:focus {
 
 
 
-                                                /* MEDIA QUERYS */
+                                                /* MEDIA QUERYS 425px*/
 
 @media (min-width:425px) and (max-width: 767px) {
     * {
@@ -1061,6 +1064,7 @@ input:focus {
     }
     
     .sticky {
+        font-size: 1.6rem;
         width:100%;
     }
 
@@ -1196,16 +1200,9 @@ input:focus {
 
 
 
+                                                        /*  MEDIA QUERY 768PX */
 
-
-
-
-
-
-
-
-
-/*
-@media (min-width:768px) {}
-
-*/
+   
+@media (min-width:768px) {
+}
+    
