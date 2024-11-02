@@ -43,7 +43,8 @@
         padding: 20px;
 
         .alanyyo {
-            width:350px;
+            width: 450px;
+            max-width:600px;
             padding: 15px;
             border: solid 2px #202128;
             border-style: dotted;
@@ -53,7 +54,7 @@
         
         .texto-quienes1 {
             border: solid 2px #202128;
-            padding:12px;
+            padding: 12px;
         }
     }
 
@@ -68,7 +69,8 @@
         padding: 20px;
 
         .laburando {
-            width: 300px;
+            width: 450px;
+            max-width:600px;
             padding: 15px;
             border: solid 2px #202128;
             border-style: dotted;
@@ -77,9 +79,9 @@
         }
         
         .texto-quienes2 {
+            margin: 0 auto;
             padding:12px;
             border: solid 2px #202128;
-            
-        }
+            }
     }
 }

@@ -16,6 +16,7 @@
         align-items: center;
         justify-content: center;
         color:#FAFAFA;
+        padding-top:50px;
 
             .containerindex-titulo {
                 border: solid 2px #0097B2 ;
@@ -34,6 +35,7 @@
         border:solid 2px #0097B2;
         border-radius:10px;
         margin:50px;
+        flex-direction: column;
 
             .texto-atencion {
                 font-size: 30px;
@@ -55,6 +57,7 @@
                     text-decoration:none;
                     transition: 1s;
 
+
                     &:hover {
                         background-color: white;
                         color: #0097B2;
@@ -67,8 +70,8 @@
                     margin: 3em;
                     border: solid 1px white;
                     border-radius: 10px;
-                    padding:10px;
-                 
+                    padding:1rem; 
+                    
                  }
 
         }
