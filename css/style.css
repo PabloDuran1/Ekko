@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* BASE */
 * {
   margin: 0;
@@ -528,5 +529,621 @@ footer .boton-datos:hover {
 }
 
 /* NUESTROS ALUMNOS*/
+.container-imagenes {
+  background-color: #0097B2;
+}
+
+.contenedor-abajo {
+  background-color: #0097B2;
+}
+
+/* 320 px*/
+@media (min-width: 320px) and (max-width: 374px) {
+  /* HEADER */
+  .sticky {
+    display: none;
+  }
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 0.8rem;
+    align-items: center;
+    width: 100%;
+  }
+  header a {
+    font-size: 1.5rem;
+  }
+  header .logo-ekko {
+    width: 150px;
+  }
+  header .lista-navegable {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+    width: 100%;
+    align-items: center;
+    border-top: solid 2px #202128;
+  }
+  header .lista-navegable li {
+    padding: 2px;
+  }
+  /* FOOTER*/
+  footer {
+    width: 100%;
+  }
+  footer .footer-contacto {
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  footer .datos-footer {
+    font-size: 1.3rem;
+  }
+  footer .formulario-datos {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  footer .formulario-datos input {
+    padding: 0.5rem;
+    width: 95%;
+  }
+  footer .formulario-datos .formulario-aclaraciones {
+    display: none;
+  }
+  footer .formulario-datos .input-aclaraciones {
+    display: none;
+  }
+  /* HOME */
+  .grid-containerindex {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Parte de arriba */
+    /* Sección izquierda */
+  }
+  .grid-containerindex .grid-containerindex-1 {
+    grid-column: 1/-1;
+  }
+  .grid-containerindex .grid-containerindex-1 .containerindex-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin: 2rem 3rem;
+  }
+  .grid-containerindex .grid-containerindex-2 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    padding: 0;
+    width: 80%;
+    margin: 0rem 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .texto-atencion,
+  .grid-containerindex .grid-containerindex-2 .aclaracion-contacto {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    margin: 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .boton-contacto {
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: block;
+    margin: 0 2rem;
+  }
+  .grid-containerindex .grid-containerindex-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-leiza {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-cami {
+    display: none;
+  }
+  .grid-containerindex .texto-entrenamiento {
+    display: none;
+  }
+  .grid-containerindex .lugar-esperando {
+    width: 90%;
+    font-size: 2rem;
+    margin: 0.5rem 1rem;
+    padding-top: 0.5rem;
+  }
+}
+/* 375px*/
+@media (min-width: 375px) and (max-width: 424px) {
+  .sticky {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 0.8rem;
+    align-items: center;
+    width: 100%;
+  }
+  header a {
+    font-size: 1.7rem;
+  }
+  header .logo-ekko {
+    width: 200px;
+  }
+  header .lista-navegable {
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    width: 100%;
+    align-items: center;
+    border-top: solid 2px #202128;
+  }
+  header .lista-navegable li {
+    padding: 5px;
+  }
+  /* FOOTER*/
+  footer {
+    width: 100%;
+  }
+  footer .footer-contacto {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  footer .datos-footer {
+    font-size: 1.5rem;
+  }
+  footer .formulario-datos {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  footer .formulario-datos input {
+    padding: 0.5rem;
+    width: 95%;
+  }
+  footer .formulario-datos .formulario-aclaraciones {
+    display: none;
+  }
+  footer .formulario-datos .input-aclaraciones {
+    display: none;
+  }
+  /* HOME */
+  .grid-containerindex {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Parte de arriba */
+    /* Sección izquierda */
+  }
+  .grid-containerindex .grid-containerindex-1 {
+    grid-column: 1/-1;
+  }
+  .grid-containerindex .grid-containerindex-1 .containerindex-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 2rem 3rem;
+  }
+  .grid-containerindex .grid-containerindex-2 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    padding: 0;
+    width: 80%;
+    margin: 0rem 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .texto-atencion,
+  .grid-containerindex .grid-containerindex-2 .aclaracion-contacto {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+    margin: 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .boton-contacto {
+    font-size: 1.7rem;
+    padding: 1rem;
+    display: block;
+    margin: 0 4rem;
+  }
+  .grid-containerindex .grid-containerindex-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-leiza {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-cami {
+    display: none;
+  }
+  .grid-containerindex .texto-entrenamiento {
+    display: none;
+  }
+  .grid-containerindex .lugar-esperando {
+    width: 90%;
+    font-size: 2rem;
+    margin: 0.5rem 1rem;
+    padding-top: 0.5rem;
+  }
+}
+/* 425px*/
+@media (min-width: 425px) and (max-width: 767px) {
+  .sticky {
+    font-size: 1.6rem;
+    width: 100%;
+  }
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    width: 100%;
+  }
+  header a {
+    font-size: 2rem;
+  }
+  header .logo-ekko {
+    width: 220px;
+  }
+  header .lista-navegable {
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    width: 100%;
+    align-items: center;
+    border-top: solid 2px #202128;
+  }
+  header .lista-navegable li {
+    padding: 5px;
+  }
+  /* FOOTER*/
+  footer {
+    width: 100%;
+  }
+  footer .footer-contacto {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  footer .datos-footer {
+    font-size: 1.8rem;
+    margin: 1rem 1rem;
+  }
+  footer .formulario-datos {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  footer .formulario-datos input {
+    padding: 0.5rem;
+    width: 85%;
+  }
+  footer .formulario-datos .formulario-aclaraciones {
+    display: none;
+  }
+  footer .formulario-datos .input-aclaraciones {
+    display: none;
+  }
+  /* HOME */
+  .grid-containerindex {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Parte de arriba */
+    /* Sección izquierda */
+  }
+  .grid-containerindex .grid-containerindex-1 {
+    grid-column: 1/-1;
+  }
+  .grid-containerindex .grid-containerindex-1 .containerindex-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.2rem;
+    padding: 1.2rem;
+    margin: 2rem 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    padding: 0;
+    width: 80%;
+    margin: 0rem 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .texto-atencion,
+  .grid-containerindex .grid-containerindex-2 .aclaracion-contacto {
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin: 2.3rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .boton-contacto {
+    font-size: 2.2rem;
+    padding: 1rem;
+    display: block;
+    margin: 0 3.5rem;
+  }
+  .grid-containerindex .grid-containerindex-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-leiza {
+    width: 28rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-cami {
+    display: none;
+  }
+  .grid-containerindex .texto-entrenamiento {
+    display: none;
+  }
+  .grid-containerindex .lugar-esperando {
+    width: 90%;
+    font-size: 2.5rem;
+    margin: 0.5rem 2.5rem;
+    padding-top: 0.5rem;
+  }
+}
+/* 768px*/
+@media (min-width: 768px) and (max-width: 1079px) {
+  .sticky {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    width: 100%;
+  }
+  header a {
+    font-size: 2rem;
+  }
+  header .logo-ekko {
+    width: 250px;
+  }
+  header .lista-navegable {
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    width: 100%;
+    align-items: center;
+    border-top: solid 2px #202128;
+  }
+  header .lista-navegable li {
+    padding: 5px;
+  }
+  /* FOOTER*/
+  footer {
+    width: 100%;
+  }
+  footer .footer-contacto {
+    font-size: 2.7rem;
+    padding: 1rem;
+  }
+  footer .datos-footer {
+    font-size: 2rem;
+    margin: 1rem 1rem;
+  }
+  footer .formulario-datos {
+    font-size: 1.8rem;
+    width: 75%;
+  }
+  footer .formulario-datos input {
+    padding: 0.5rem;
+    width: 75%;
+  }
+  footer .formulario-datos input .formulario-aclaraciones {
+    display: none;
+  }
+  footer .formulario-datos input .input-aclaraciones {
+    display: none;
+  }
+  /* HOME */
+  .grid-containerindex {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Parte de arriba */
+    /* Sección izquierda */
+  }
+  .grid-containerindex .grid-containerindex-1 {
+    grid-column: 1/-1;
+  }
+  .grid-containerindex .grid-containerindex-1 .containerindex-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.2rem;
+    padding: 1.2rem;
+    margin: 2rem 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    padding: 0;
+    width: 80%;
+    margin: 0rem 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .texto-atencion,
+  .grid-containerindex .grid-containerindex-2 .aclaracion-contacto {
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin: 2.3rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .boton-contacto {
+    font-size: 2.2rem;
+    padding: 1rem;
+    display: block;
+    margin: 0 3.5rem;
+  }
+  .grid-containerindex .grid-containerindex-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-leiza {
+    width: 28rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-cami {
+    display: none;
+  }
+  .grid-containerindex .texto-entrenamiento {
+    display: none;
+  }
+  .grid-containerindex .lugar-esperando {
+    width: 90%;
+    font-size: 2.5rem;
+    margin: 0.5rem 2.5rem;
+    padding-top: 0.5rem;
+  }
+}
+/* 1080px */
+@media (min-width: 1080px) and (max-width: 1347px) {
+  .sticky {
+    font-size: 2rem;
+    width: 100%;
+  }
+  header {
+    flex-direction: row;
+    height: auto;
+    padding: 1rem;
+    width: 100%;
+  }
+  header a {
+    font-size: 1.5rem;
+  }
+  header .logo-ekko {
+    width: 250px;
+  }
+  header .lista-navegable {
+    justify-content: space-between;
+    padding: 3px;
+    width: 100%;
+    align-items: center;
+    border-top: solid 2px #202128;
+  }
+  header .lista-navegable li {
+    padding: 5px;
+  }
+  /* FOOTER*/
+  footer {
+    width: 100%;
+  }
+  footer .footer-contacto {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  footer .datos-footer {
+    font-size: 1.8rem;
+    margin: 1rem 1rem;
+  }
+  footer .formulario-datos {
+    font-size: 1.5rem;
+    width: 65%;
+  }
+  footer .formulario-datos input {
+    padding: 0.5rem;
+    width: 65%;
+  }
+  /* HOME */
+  .grid-containerindex {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Parte de arriba */
+    /* Sección izquierda */
+  }
+  .grid-containerindex .grid-containerindex-1 {
+    grid-column: 1/-1;
+  }
+  .grid-containerindex .grid-containerindex-1 .containerindex-titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+    padding: 1.2rem;
+    margin: 2rem 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    padding: 0;
+    width: 80%;
+    margin: 0rem 2rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .texto-atencion,
+  .grid-containerindex .grid-containerindex-2 .aclaracion-contacto {
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin: 2.3rem;
+  }
+  .grid-containerindex .grid-containerindex-2 .boton-contacto {
+    font-size: 2.2rem;
+    padding: 1rem;
+    display: block;
+    margin: 0 3.5rem;
+  }
+  .grid-containerindex .grid-containerindex-3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-leiza {
+    width: 28rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .grid-containerindex .grid-containerindex-3 .imagen-cami {
+    width: 28rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-bottom: 0;
+  }
+  .grid-containerindex .texto-entrenamiento {
+    display: flex;
+    font-size: 2rem;
+  }
+  .grid-containerindex .lugar-esperando {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
