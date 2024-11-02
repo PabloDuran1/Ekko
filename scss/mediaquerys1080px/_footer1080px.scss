@@ -1,0 +1,26 @@
+@media (min-width:1080px) and (max-width: 1347px) { 
+    footer {width:100%;
+
+
+        .footer-contacto {
+            font-size: 2rem ;
+            padding: 1rem;
+        }
+    
+        .datos-footer {
+            font-size: 1.8rem;
+            margin: 1rem 1rem;      
+            }
+    
+        .formulario-datos {
+            font-size: 1.5rem;
+            width:65%;
+    
+            input {
+                padding: 0.5rem;
+                width:65%;
+            }
+        }
+    }
+    
+}

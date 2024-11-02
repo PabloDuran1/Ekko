@@ -1,0 +1,32 @@
+@media (min-width:1080px) and (max-width: 1347px) {
+    .sticky {
+        font-size: 2rem;
+        width:100%;
+    }
+
+    header {
+        flex-direction: row;
+        height: auto; 
+        padding: 1rem;
+        width:100%;
+             a {
+            font-size: 1.5rem;
+            }
+
+    .logo-ekko {
+        width: 250px;
+    }
+
+    .lista-navegable {
+        justify-content: space-between;
+        padding: 3px ;
+        width:100%;
+        align-items: center; 
+        border-top: solid 2px #202128;
+        
+            li {
+            padding: 5px; 
+            }
+        }    
+    }
+}

@@ -1,43 +1,67 @@
 /* BASE */
-@import './base/reset';
+@use './base/reset'as*;
 
 /* HEADER */
-@import './layout/header';
+@use './layout/header'as*;
 
 /* FOOTER */
-@import './layout/footer';
+@use './layout/footer'as*;
 
 /* HOME */
-@import './layout/home';
+@use './layout/home'as*;
 
-/* PAGINA CONTACTI*/
-@import './layout/pagcontacto';
+/* PAGINA CONTACTO*/
+@use './layout/pagcontacto'as*;
 
 /* QUIENES SOMOS */
-@import './layout/quienessomos';
+@use './layout/quienessomos'as*;
 
 /* SERVICIOS*/
-@import './layout/servicios';
+@use './layout/servicios'as*;
 
 /* NUESTROS PLANES*/
-@import './layout/nuestrosplanes';
+@use './layout/nuestrosplanes'as*;
 
 /* NUESTROS ALUMNOS*/
-@import './layout/nuestrosalumnos';
+@use './layout/nuestrosalumnos'as*;
 
-/* 320 px*/
-@import './layout/media320';
 
-/* 375px*/
-@import './layout/media375';
+                      /* 320px*/
+ @use './mediaquerys320px/header320px'as*;
+ @use './mediaquerys320px/footer320pxl'as*;
+ @use './mediaquerys320px/home320px'as*;
+ @use './mediaquerys320px/quienessomos320px'as*;
+ @use './mediaquerys320px/servicios320px'as*;
 
-/* 425px*/
-@import './layout/media425px';
 
-/* 768px*/
-@import './layout/media768px';
 
-/* 1080px */
-@import './layout/media1080px';
+                    /* 375px */
+@use './mediaquerys375px/header375px'as*;
+@use './mediaquerys375px/footer375px'as*;
+@use './mediaquerys375px/home375px'as*;
+@use './mediaquerys375px/quienessomos375px'as*;
+@use './mediaquerys375px/servicios375px'as*;
+
+                    /* 425px */
+@use './mediaquerys425px/header425px'as*;
+@use './mediaquerys425px/footer425px'as*;
+@use './mediaquerys425px/home425px'as*;
+@use './mediaquerys425px/quienessomos425px'as*;
+@use './mediaquerys425px/servicios425px'as*;
+
+                    /* 768px*/
+@use './mediaquerys768px/header768px'as*;
+@use './mediaquerys768px/footer768px'as*;
+@use './mediaquerys768px/home768px'as*;
+@use './mediaquerys768px/quienessomos768px'as*;
+@use './mediaquerys768px/servicios768px'as*;
+
+                    /* 1080px*/
+@use './mediaquerys1080px/header1080px'as*;
+@use './mediaquerys1080px/footer1080px'as*;
+@use './mediaquerys1080px/home1080px'as*;
+@use './mediaquerys1080px/quienessomos1080px'as*;
+@use './mediaquerys1080px/servicios1080px'as*;
+
 
 

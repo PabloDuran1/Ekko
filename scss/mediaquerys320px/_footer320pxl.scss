@@ -1,0 +1,33 @@
+@media (min-width:320px) and (max-width: 374px) {
+footer {
+    width: 100%;
+                      
+.footer-contacto {
+    font-size: 1.8rem ;
+    padding: 1rem;
+    text-align: center;
+    }   
+
+.datos-footer {
+    font-size: 1.3rem;
+    }
+
+.formulario-datos {
+    font-size: 1.2rem;
+    width:90%;
+
+    input {
+        padding: 0.5rem;
+        width:95%;
+        }
+
+    .formulario-aclaraciones {
+        display:none !important;
+        } 
+        
+    .input-aclaraciones {
+        display:none!important;
+        }            
+    }
+} 
+}

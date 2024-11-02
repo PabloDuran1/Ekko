@@ -1,0 +1,80 @@
+@media (min-width:375px) and (max-width: 424px) { 
+    .grid-containerindex {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto auto auto;
+        justify-items: center;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    
+
+    /* Parte de arriba */
+    .grid-containerindex-1 {
+        grid-column: 1 / -1;
+
+        .containerindex-titulo {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 2rem; 
+            padding: 1rem;
+            margin: 2rem 3rem;
+            }
+    }
+
+
+    /* Sección izquierda */
+    .grid-containerindex-2 {
+        display:flex;
+        flex-direction: column;
+        grid-column: 1 / -1;
+        padding:0;
+        width:80%;
+        margin: 0rem 2rem;
+
+        .texto-atencion,
+        .aclaracion-contacto {
+            font-size: 1.4rem;
+            padding: 0.8rem;
+            margin: 2rem;
+        }
+    
+        .boton-contacto {
+            font-size: 1.7rem;
+            padding: 1rem;
+            display:block;
+            margin: 0 4rem;
+        }
+    }
+
+    
+
+    .grid-containerindex-3 {
+        display:flex;
+        flex-direction: column;
+
+        .imagen-leiza {
+            display:flex;
+            flex-direction: column;
+            margin-top: 2rem;
+            margin-bottom:0;
+        } 
+        .imagen-cami {
+            display:none;
+        }
+    }
+
+
+    .texto-entrenamiento {
+        display:none;
+    }
+
+    .lugar-esperando {
+        width:90%;
+        font-size: 2rem;
+        margin: 0.5rem 1rem;
+        padding-top: 0.5rem;
+    }
+}
+}

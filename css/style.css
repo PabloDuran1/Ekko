@@ -248,7 +248,7 @@ footer .boton-datos:hover {
   color: #202128;
 }
 
-/* PAGINA CONTACTI*/
+/* PAGINA CONTACTO*/
 .contacto-pag {
   background-color: #0097B2;
   display: flex;
@@ -542,7 +542,7 @@ footer .boton-datos:hover {
   background-color: #0097B2;
 }
 
-/* 320 px*/
+/* 320px*/
 @media (min-width: 320px) and (max-width: 374px) {
   .sticky {
     display: none;
@@ -571,7 +571,8 @@ footer .boton-datos:hover {
   header .lista-navegable li {
     padding: 2px;
   }
-  /* FOOTER*/
+}
+@media (min-width: 320px) and (max-width: 374px) {
   footer {
     width: 100%;
   }
@@ -592,12 +593,13 @@ footer .boton-datos:hover {
     width: 95%;
   }
   footer .formulario-datos .formulario-aclaraciones {
-    display: none;
+    display: none !important;
   }
   footer .formulario-datos .input-aclaraciones {
-    display: none;
+    display: none !important;
   }
-  /* HOME */
+}
+@media (min-width: 320px) and (max-width: 374px) {
   .grid-containerindex {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
@@ -663,68 +665,193 @@ footer .boton-datos:hover {
     padding-top: 0.5rem;
   }
 }
-/*  QUIENES SOMOS */
-.grid-containerquienes {
-  display: flex;
-  flex-direction: column;
-  background-color: #202128;
-  width: 100%;
-  justify-content: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  /* Encabezado */
-  /* Sección de la izquierda */
-  /* Sección de la derecha */
+@media (min-width: 320px) and (max-width: 374px) {
+  .grid-containerquienes {
+    display: flex;
+    flex-direction: column;
+    background-color: #202128;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    /* Encabezado */
+    /* Sección de la izquierda */
+    /* Sección de la derecha */
+  }
+  .grid-containerquienes .grid-containerquienes-1 {
+    grid-column: 1/-1;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .texto-quienes {
+    font-size: 1.3rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .alanyyo {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 1rem auto;
+  }
+  .grid-containerquienes .grid-containerquienes-3 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .laburando {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 15px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
+    display: none;
+  }
 }
-.grid-containerquienes .grid-containerquienes-1 {
-  grid-column: 1/-1;
-  align-items: center;
-  padding: 10px;
-  width: 80%;
+@media (min-width: 320px) and (max-width: 374px) {
+  .grid-containerservicios {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios1 {
+    grid-column: 1/-1;
+    padding: 1rem;
+    align-self: center;
+    width: 100%;
+    margin-left: 0;
+  }
+  .grid-containerservicios .grid-containerservicios1 .titulo-servicios {
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 {
+    grid-column: 1/-1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 .musculacion-titulo {
+    justify-content: center;
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 .imagen-musculacion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios2texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 1rem 0;
+  }
+  .grid-containerservicios .grid-containerservicios2texto .texto-musculacion {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-containerservicios .grid-containerservicios3 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .titulo-nutricion {
+    display: flex;
+    justify-content: center;
+    margin: 1.2rem;
+    font-size: 1.5rem;
+  }
+  .grid-containerservicios .grid-containerservicios3 .imagen-nutricion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .texto-nutricion {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-containerservicios .grid-containerservicios4 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4 .titulo-masajes {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 1.2rem;
+    font-size: 1.5rem;
+  }
+  .grid-containerservicios .grid-containerservicios4 .imagen-masajes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto .texto-masajes {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+    margin: 1rem;
+  }
 }
-.grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
-  font-size: 1.8rem;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-}
-.grid-containerquienes .grid-containerquienes-1 .texto-quienes {
-  font-size: 1.3rem;
-  padding: 10px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 .alanyyo {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 10px auto;
-}
-.grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
-  font-size: 1.3rem;
-  padding: 10px;
-  margin: 1rem auto;
-}
-.grid-containerquienes .grid-containerquienes-3 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-3 .laburando {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 15px auto;
-}
-.grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
-  display: none;
-}
-
-/* 375px*/
+/* 375px */
 @media (min-width: 375px) and (max-width: 424px) {
   .sticky {
     font-size: 1.2rem;
@@ -754,7 +881,8 @@ footer .boton-datos:hover {
   header .lista-navegable li {
     padding: 5px;
   }
-  /* FOOTER*/
+}
+@media (min-width: 375px) and (max-width: 424px) {
   footer {
     width: 100%;
   }
@@ -780,7 +908,8 @@ footer .boton-datos:hover {
   footer .formulario-datos .input-aclaraciones {
     display: none;
   }
-  /* HOME */
+}
+@media (min-width: 375px) and (max-width: 424px) {
   .grid-containerindex {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
@@ -846,68 +975,201 @@ footer .boton-datos:hover {
     padding-top: 0.5rem;
   }
 }
-/*  QUIENES SOMOS */
-.grid-containerquienes {
-  display: flex;
-  flex-direction: column;
-  background-color: #202128;
-  width: 100%;
-  justify-content: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  /* Encabezado */
-  /* Sección de la izquierda */
-  /* Sección de la derecha */
+@media (min-width: 375px) and (max-width: 424px) {
+  .grid-containerquienes {
+    display: flex;
+    flex-direction: column;
+    background-color: #202128;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    /* Encabezado */
+    /* Sección de la izquierda */
+    /* Sección de la derecha */
+  }
+  .grid-containerquienes .grid-containerquienes-1 {
+    grid-column: 1/-1;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .texto-quienes {
+    font-size: 1.3rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .alanyyo {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 1rem auto;
+  }
+  .grid-containerquienes .grid-containerquienes-3 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .laburando {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 15px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
+    display: none;
+  }
 }
-.grid-containerquienes .grid-containerquienes-1 {
-  grid-column: 1/-1;
-  align-items: center;
-  padding: 10px;
-  width: 80%;
+@media (min-width: 375px) and (max-width: 424px) {
+  .grid-containerservicios {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios1 {
+    grid-column: 1/-1;
+    padding: 1rem;
+    align-self: center;
+    width: 100%;
+    margin-left: 0;
+  }
+  .grid-containerservicios .grid-containerservicios1 .titulo-servicios {
+    width: 90%;
+    font-size: 2rem;
+    padding: 0.5rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 {
+    grid-column: 1/-1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 .musculacion-titulo {
+    display: inline-block;
+    padding: 0.5rem;
+    justify-content: center;
+    font-size: 1.8rem;
+    width: 80%;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 .imagen-musculacion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios2texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 1rem 0;
+  }
+  .grid-containerservicios .grid-containerservicios2texto .texto-musculacion {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-containerservicios .grid-containerservicios3 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .titulo-nutricion {
+    display: flex;
+    display: inline-block;
+    padding: 0.5rem;
+    justify-content: center;
+    margin: 1.2rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .imagen-nutricion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .texto-nutricion {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-containerservicios .grid-containerservicios4 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4 .titulo-masajes {
+    display: flex;
+    display: inline-block;
+    padding: 0.5rem;
+    justify-content: center;
+    margin: 1.5rem 1.2rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios4 .imagen-masajes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto .texto-masajes {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+    margin: 1rem;
+  }
 }
-.grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
-  font-size: 1.8rem;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-}
-.grid-containerquienes .grid-containerquienes-1 .texto-quienes {
-  font-size: 1.3rem;
-  padding: 10px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 .alanyyo {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 10px auto;
-}
-.grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
-  font-size: 1.3rem;
-  padding: 10px;
-  margin: 1rem auto;
-}
-.grid-containerquienes .grid-containerquienes-3 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-3 .laburando {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 15px auto;
-}
-.grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
-  display: none;
-}
-
-/* 425px*/
+/* 425px */
 @media (min-width: 425px) and (max-width: 767px) {
   .sticky {
     font-size: 1.6rem;
@@ -936,7 +1198,8 @@ footer .boton-datos:hover {
   header .lista-navegable li {
     padding: 5px;
   }
-  /* FOOTER*/
+}
+@media (min-width: 425px) and (max-width: 767px) {
   footer {
     width: 100%;
   }
@@ -962,7 +1225,8 @@ footer .boton-datos:hover {
   footer .formulario-datos .input-aclaraciones {
     display: none;
   }
-  /* HOME */
+}
+@media (min-width: 425px) and (max-width: 767px) {
   .grid-containerindex {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
@@ -1030,67 +1294,200 @@ footer .boton-datos:hover {
     padding-top: 0.5rem;
   }
 }
-/*  QUIENES SOMOS */
-.grid-containerquienes {
-  display: flex;
-  flex-direction: column;
-  background-color: #202128;
-  width: 100%;
-  justify-content: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  /* Encabezado */
-  /* Sección de la izquierda */
-  /* Sección de la derecha */
+@media (min-width: 425px) and (max-width: 767px) {
+  .grid-containerquienes {
+    display: flex;
+    flex-direction: column;
+    background-color: #202128;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    /* Encabezado */
+    /* Sección de la izquierda */
+    /* Sección de la derecha */
+  }
+  .grid-containerquienes .grid-containerquienes-1 {
+    grid-column: 1/-1;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .texto-quienes {
+    font-size: 1.3rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .alanyyo {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 1rem auto;
+  }
+  .grid-containerquienes .grid-containerquienes-3 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .laburando {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 15px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
+    display: none;
+  }
 }
-.grid-containerquienes .grid-containerquienes-1 {
-  grid-column: 1/-1;
-  align-items: center;
-  padding: 10px;
-  width: 80%;
+@media (min-width: 425px) and (max-width: 767px) {
+  .grid-containerservicios {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios1 {
+    grid-column: 1/-1;
+    padding: 1rem;
+    align-self: center;
+    width: 100%;
+    margin-left: 0;
+  }
+  .grid-containerservicios .grid-containerservicios1 .titulo-servicios {
+    width: 90%;
+    font-size: 2.2rem;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 {
+    grid-column: 1/-1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 .musculacion-titulo {
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 .imagen-musculacion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios2texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 1rem 0;
+  }
+  .grid-containerservicios .grid-containerservicios2texto .texto-musculacion {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-containerservicios .grid-containerservicios3 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .titulo-nutricion {
+    display: flex;
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1.2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .imagen-nutricion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .texto-nutricion {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-containerservicios .grid-containerservicios4 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4 .titulo-masajes {
+    display: flex;
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios4 .imagen-masajes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto .texto-masajes {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: 1rem;
+  }
 }
-.grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
-  font-size: 1.8rem;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-}
-.grid-containerquienes .grid-containerquienes-1 .texto-quienes {
-  font-size: 1.3rem;
-  padding: 10px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 .alanyyo {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 10px auto;
-}
-.grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
-  font-size: 1.3rem;
-  padding: 10px;
-  margin: 1rem auto;
-}
-.grid-containerquienes .grid-containerquienes-3 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-3 .laburando {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 15px auto;
-}
-.grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
-  display: none;
-}
-
 /* 768px*/
 @media (min-width: 768px) and (max-width: 1079px) {
   .sticky {
@@ -1120,7 +1517,8 @@ footer .boton-datos:hover {
   header .lista-navegable li {
     padding: 5px;
   }
-  /* FOOTER*/
+}
+@media (min-width: 768px) and (max-width: 1079px) {
   footer {
     width: 100%;
   }
@@ -1146,7 +1544,8 @@ footer .boton-datos:hover {
   footer .formulario-datos input .input-aclaraciones {
     display: none;
   }
-  /* HOME */
+}
+@media (min-width: 768px) and (max-width: 1079px) {
   .grid-containerindex {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
@@ -1214,73 +1613,206 @@ footer .boton-datos:hover {
     padding-top: 0.5rem;
   }
 }
-/* QUIENES SOMOS*/
-/*  QUIENES SOMOS */
-.grid-containerquienes {
-  display: flex;
-  flex-direction: column;
-  background-color: #202128;
-  width: 100%;
-  justify-content: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  /* Encabezado */
-  /* Sección de la izquierda */
-  /* Sección de la derecha */
+@media (min-width: 768px) and (max-width: 1079px) {
+  .grid-containerquienes {
+    display: flex;
+    flex-direction: column;
+    background-color: #202128;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    /* Encabezado */
+    /* Sección de la izquierda */
+    /* Sección de la derecha */
+  }
+  .grid-containerquienes .grid-containerquienes-1 {
+    grid-column: 1/-1;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .texto-quienes {
+    font-size: 1.3rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .alanyyo {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 1rem auto;
+    display: inline-block;
+    width: 80%;
+  }
+  .grid-containerquienes .grid-containerquienes-3 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .laburando {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 15px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
+    display: flex;
+    width: 80%;
+    font-size: 1.3rem;
+  }
 }
-.grid-containerquienes .grid-containerquienes-1 {
-  grid-column: 1/-1;
-  align-items: center;
-  padding: 10px;
-  width: 80%;
+@media (min-width: 768px) and (max-width: 1079px) {
+  .grid-containerservicios {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios1 {
+    grid-column: 1/-1;
+    padding: 1rem;
+    align-self: center;
+    width: 100%;
+    margin-left: 0;
+  }
+  .grid-containerservicios .grid-containerservicios1 .titulo-servicios {
+    width: 90%;
+    font-size: 2.7rem;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem;
+  }
+  .grid-containerservicios .grid-containerservicios2 {
+    grid-column: 1/-1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 .musculacion-titulo {
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  .grid-containerservicios .grid-containerservicios2 .imagen-musculacion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios2texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 1rem 0;
+  }
+  .grid-containerservicios .grid-containerservicios2texto .texto-musculacion {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: 1rem 0;
+  }
+  .grid-containerservicios .grid-containerservicios3 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .titulo-nutricion {
+    display: flex;
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1.5rem;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .imagen-nutricion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .texto-nutricion {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-containerservicios .grid-containerservicios4 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4 .titulo-masajes {
+    display: flex;
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1.8rem 0;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios4 .imagen-masajes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto .texto-masajes {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: 1rem;
+  }
 }
-.grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
-  font-size: 1.8rem;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-}
-.grid-containerquienes .grid-containerquienes-1 .texto-quienes {
-  font-size: 1.3rem;
-  padding: 10px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 .alanyyo {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 10px auto;
-}
-.grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
-  font-size: 1.3rem;
-  padding: 10px;
-  margin: 1rem auto;
-  display: inline-block;
-  width: 80%;
-}
-.grid-containerquienes .grid-containerquienes-3 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-3 .laburando {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 15px auto;
-}
-.grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
-  display: flex;
-  width: 80%;
-  font-size: 1.3rem;
-}
-
-/* 1080px */
+/* 1080px*/
 @media (min-width: 1080px) and (max-width: 1347px) {
   .sticky {
     font-size: 2rem;
@@ -1308,7 +1840,8 @@ footer .boton-datos:hover {
   header .lista-navegable li {
     padding: 5px;
   }
-  /* FOOTER*/
+}
+@media (min-width: 1080px) and (max-width: 1347px) {
   footer {
     width: 100%;
   }
@@ -1328,7 +1861,8 @@ footer .boton-datos:hover {
     padding: 0.5rem;
     width: 65%;
   }
-  /* HOME */
+}
+@media (min-width: 1080px) and (max-width: 1347px) {
   .grid-containerindex {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
@@ -1398,67 +1932,199 @@ footer .boton-datos:hover {
     font-size: 2.5rem;
   }
 }
-/*  QUIENES SOMOS */
-.grid-containerquienes {
-  display: flex;
-  flex-direction: column;
-  background-color: #202128;
-  width: 100%;
-  justify-content: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  /* Encabezado */
-  /* Sección de la izquierda */
-  /* Sección de la derecha */
+@media (min-width: 1080px) and (max-width: 1347px) {
+  .grid-containerquienes {
+    display: flex;
+    flex-direction: column;
+    background-color: #202128;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    /* Encabezado */
+    /* Sección de la izquierda */
+    /* Sección de la derecha */
+  }
+  .grid-containerquienes .grid-containerquienes-1 {
+    grid-column: 1/-1;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .grid-containerquienes .grid-containerquienes-1 .texto-quienes {
+    font-size: 1.3rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .alanyyo {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 1rem auto;
+  }
+  .grid-containerquienes .grid-containerquienes-3 {
+    grid-column: 1/-1;
+    background-color: #0097B2;
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .laburando {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 15px auto;
+  }
+  .grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
+    display: flex;
+    width: 80%;
+    font-size: 1.3rem;
+  }
 }
-.grid-containerquienes .grid-containerquienes-1 {
-  grid-column: 1/-1;
-  align-items: center;
-  padding: 10px;
-  width: 80%;
-}
-.grid-containerquienes .grid-containerquienes-1 .titulo-quienes {
-  font-size: 1.8rem;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-}
-.grid-containerquienes .grid-containerquienes-1 .texto-quienes {
-  font-size: 1.3rem;
-  padding: 10px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-2 .alanyyo {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 10px auto;
-}
-.grid-containerquienes .grid-containerquienes-2 .texto-quienes1 {
-  font-size: 1.3rem;
-  padding: 10px;
-  margin: 1rem auto;
-}
-.grid-containerquienes .grid-containerquienes-3 {
-  grid-column: 1/-1;
-  background-color: #0097B2;
-  padding: 15px;
-  text-align: center;
-}
-.grid-containerquienes .grid-containerquienes-3 .laburando {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto 15px auto;
-}
-.grid-containerquienes .grid-containerquienes-3 .texto-quienes2 {
-  display: flex;
-  width: 80%;
-  font-size: 1.3rem;
+@media (min-width: 1080px) and (max-width: 1347px) {
+  .grid-containerservicios {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios1 {
+    grid-column: 1/-1;
+    padding: 1rem;
+    align-self: center;
+    width: 100%;
+    margin-left: 0;
+  }
+  .grid-containerservicios .grid-containerservicios1 .titulo-servicios {
+    font-size: 2.2rem;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 {
+    grid-column: 1/-1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 .musculacion-titulo {
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios2 .imagen-musculacion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios2texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 1rem 0;
+  }
+  .grid-containerservicios .grid-containerservicios2texto .texto-musculacion {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-containerservicios .grid-containerservicios3 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .titulo-nutricion {
+    display: flex;
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1.2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .imagen-nutricion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios3 .texto-nutricion {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-containerservicios .grid-containerservicios4 {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4 .titulo-masajes {
+    display: flex;
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .grid-containerservicios .grid-containerservicios4 .imagen-masajes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .grid-containerservicios .grid-containerservicios4texto .texto-masajes {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

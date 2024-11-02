@@ -1,0 +1,74 @@
+            
+@media (min-width:320px) and (max-width: 374px) {
+
+.grid-containerquienes {
+        display: flex;
+        flex-direction: column;
+        background-color: #202128;
+        width:100%;
+        justify-content: center;
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto auto auto;
+    
+
+                /* Encabezado */
+        .grid-containerquienes-1 {
+            grid-column: 1/-1;
+            align-items: center;
+            padding: 10px;
+            width:80%;
+
+            .titulo-quienes {
+                font-size: 1.8rem;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                }
+            
+            .texto-quienes {
+                font-size: 1.3rem;
+                padding: 10px;
+                text-align: center;
+                }    
+            }
+
+    /* Sección de la izquierda */
+        .grid-containerquienes-2 {
+            grid-column: 1/-1;
+            background-color: #0097B2;
+            padding: 15px;
+            text-align: center;
+    
+
+            .alanyyo {
+                width: 80%;
+                padding: 10px;
+                margin: 0 auto 10px auto;
+                }
+
+            .texto-quienes1 {
+                font-size: 1.3rem;
+                padding: 10px;
+                margin: 1rem auto;
+                }
+        }
+
+    /* Sección de la derecha */
+   .grid-containerquienes-3 {
+        grid-column: 1/-1;
+        background-color: #0097B2;
+        padding: 15px;
+        text-align: center;
+
+        .laburando {
+            width: 80%;
+            padding: 10px;
+            margin: 0 auto 15px auto;
+        }
+    
+        .texto-quienes2 {
+            display:none;
+        }
+    }
+}
+}
