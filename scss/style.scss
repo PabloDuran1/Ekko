@@ -32,6 +32,7 @@
  @use './mediaquerys320px/home320px'as*;
  @use './mediaquerys320px/quienessomos320px'as*;
  @use './mediaquerys320px/servicios320px'as*;
+ @use './mediaquerys320px/nuestrosplanes320px'as*;
 
 
 
@@ -41,6 +42,7 @@
 @use './mediaquerys375px/home375px'as*;
 @use './mediaquerys375px/quienessomos375px'as*;
 @use './mediaquerys375px/servicios375px'as*;
+@use './mediaquerys375px/nuestrosplanes375px'as*;
 
                     /* 425px */
 @use './mediaquerys425px/header425px'as*;
@@ -48,6 +50,7 @@
 @use './mediaquerys425px/home425px'as*;
 @use './mediaquerys425px/quienessomos425px'as*;
 @use './mediaquerys425px/servicios425px'as*;
+@use './mediaquerys425px/nuestrosplanes425px'as*;
 
                     /* 768px*/
 @use './mediaquerys768px/header768px'as*;
@@ -55,6 +58,7 @@
 @use './mediaquerys768px/home768px'as*;
 @use './mediaquerys768px/quienessomos768px'as*;
 @use './mediaquerys768px/servicios768px'as*;
+@use './mediaquerys768px/nuestrosplanes768px'as*;
 
                     /* 1080px*/
 @use './mediaquerys1080px/header1080px'as*;
@@ -62,6 +66,4 @@
 @use './mediaquerys1080px/home1080px'as*;
 @use './mediaquerys1080px/quienessomos1080px'as*;
 @use './mediaquerys1080px/servicios1080px'as*;
-
-
-
+@use './mediaquerys1080px/nuestrosplaes1080px'as*;
