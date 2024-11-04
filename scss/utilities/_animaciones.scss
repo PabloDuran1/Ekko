@@ -1,0 +1,43 @@
+@keyframes cambiarColorLetras {
+    0% {
+        color: #202128;
+    }
+
+    50% {
+        color: #0097B2;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+.containerindex-titulo, .footer-contacto, .titulo-servicios {
+    animation-name: cambiarColorLetras;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
+
+@keyframes planesTitulo {
+    0% {
+        color:white;
+    }
+
+    50% {
+        color:#202128;
+    }
+
+    100% {
+        color:white;
+    }
+}
+
+.combos-planes{
+    animation-name: planesTitulo;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}

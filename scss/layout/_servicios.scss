@@ -1,12 +1,12 @@
-                           /* BODY SERVICIOS */
+@import '../utilities/variables';
 
 .grid-containerservicios {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px 2fr 2fr;
-    background-color: #0097B2;
+    background-color: $color-azul;
     align-items: center;
-    background-color: #202128;
+    background-color: $color-negro;
     padding-top: 20px;
 
 
@@ -17,8 +17,8 @@
 
     .grid-containerservicios1 {
         grid-column: 1/4;
-        color:white;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:$color-blanco;
+        font-family:$letra;
         display:flex;
         justify-content: center;
         align-self: center;
@@ -26,9 +26,10 @@
 
         .titulo-servicios {
             font-size: 40px;
-            border: solid 1px white;
+            border: solid 1px $color-blanco;
             border-radius: 8px;
             padding: 10px;
+            background-image: linear-gradient(to bottom,$color-negro, $color-azul);
             }
     }
 
@@ -42,15 +43,16 @@
         align-self: center;
         margin-top:15px;
         margin-left:40px;
-        background-color: #0097B2;
+        background-color: $color-azul;
         align-items: center;
 
         .musculacion-titulo {
             font-size: 28px;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color:white;
+            font-family:$letra;
+            color:$color-blanco;
+            background-image: linear-gradient(to bottom,$color-negro, $color-azul);
             margin-top:20px;
-            border: solid 1px white;
+            border: solid 1px $color-blanco;
             border-radius: 8px;
             padding: 10px;
         }
@@ -70,12 +72,12 @@
         margin: 45px;
 
         .texto-musculacion {
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family:$letra;
             font-size: 30px;
             display: flex;
-            color:white;
+            color:$color-blanco;
             align-self: center;
-            border: solid 1px white;
+            border: solid 1px $color-blanco;
             border-radius: 8px;
             padding: 10px;
             margin-right: 35px;
@@ -92,7 +94,7 @@
                                         /* NUTRICION */
 
     .grid-containerservicios3 {
-        background-color:#0097B2;
+        background-color:$color-azul;
         grid-column: 3/4;
         grid-row: 2/4;
         display:flex;
@@ -105,13 +107,14 @@
 
 
     .titulo-nutricion {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:$letra;
         font-size: 30px;
         display:flex;
-        color:black;
+        color:$color-negro;
+        background-image: linear-gradient(to bottom, $color-blanco, $color-azul);
         margin-top:40px;
         margin-bottom: 10px;
-        border: solid 1px black;
+        border: solid 1px $color-negro;
         border-radius: 8px;
         padding: 10px;
         }
@@ -124,11 +127,11 @@
         }
 
     .texto-nutricion {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color:black;
+        font-family:$letra;
+        color:$color-negro;
         font-size: 20px;
         padding:15px;
-        border: solid 1px black;
+        border: solid 1px $color-negro;
         border-radius: 8px;
         padding: 10px;
         margin: 25px;
@@ -144,7 +147,7 @@
     .grid-containerservicios4 {
         grid-column: 1/2;
         grid-row: 3/4;
-        background-color:#0097B2 ;
+        background-color:$color-azul;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -153,10 +156,11 @@
 
         .titulo-masajes {
             display:flex;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color:white;
+            font-family:$letra;
+            color:$color-blanco;
+            background-image: linear-gradient(to bottom,$color-negro, $color-azul);
             font-size: 28px;
-            border: solid 1px white;
+            border: solid 1px $color-blanco;
             border-radius: 8px;
             padding: 10px;
             margin-top: 20px;
@@ -177,11 +181,11 @@
             grid-row: 3/4;
 
             .texto-masajes {
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-family:$letra;
                 font-size: 30px;
                 display: flex;
-                color:white;
-                border: solid 1px white;
+                color:$color-blanco;
+                border: solid 1px $color-blanco;
                 border-radius: 8px;
                 padding: 10px;
                 margin-right: 75px;

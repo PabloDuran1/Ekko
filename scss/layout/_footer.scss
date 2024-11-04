@@ -1,15 +1,17 @@
+@import '../utilities/variables';
+
 footer {
-    background-color: #202128;
+    background-color: $color-negro;
     text-align: center;
-    color: white;
+    color: $color-blanco;
     font-size: 16px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:$letra;
     padding:30px;
     display:flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    border-top:#0097B2 solid 2px;
+    border-top: $color-azul solid 2px;
     
 
 
@@ -17,7 +19,8 @@ footer {
 .footer-contacto {
     padding:5px;
     font-size:35px;
-    border: solid 1px #0097B2;
+    border: solid 1px $color-azul;
+    background-image: linear-gradient(to left,$color-negro, $color-azul);
     border-radius: 10px;
     margin-bottom:20px;
 }
@@ -25,7 +28,8 @@ footer {
 .datos-footer {
     padding:15px;
     font-size:25px;
-    border: solid 1px #0097B2;
+    background-image: linear-gradient(to bottom,$color-negro, $color-azul);
+    border: solid 1px $color-azul;
     border-radius: 10px;
     margin-bottom:20px;
 }
@@ -34,7 +38,7 @@ footer {
     display:flex;
     flex-direction: column;
     font-size: 20px;
-    border: solid 2px #0097B2;
+    border: solid 2px $color-azul;
     border-radius:10px;
     align-items:center;
     justify-content:center;
@@ -51,7 +55,7 @@ form input {
     font-size: 15px;
     
     &:focus {
-        background-color: #0097B2;
+        background-color: $color-azul;
             }
         }
     }
@@ -59,9 +63,9 @@ form input {
 
 
 .boton-datos {
-    background-color: #0097B2;
-    color:#202128;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right,$color-azul,$color-negro);
+    color:$color-negro;
+    font-family: $letra;
     font-size: 20px;
     margin-top:10px;
     padding: 12px;
@@ -71,8 +75,8 @@ form input {
     transition:1s;
 
     &:hover {
-        background-color: white;
-        color: #0097B2;
+        background-image: linear-gradient(to right,$color-azul,$color-blanco);
+        color: $color-azul;
         }
     }
 }

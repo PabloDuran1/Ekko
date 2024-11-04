@@ -1,7 +1,9 @@
+@import '../utilities/variables';
+
 .container-imagenes {
-    background-color: #0097B2;
+    background-image: linear-gradient(to right,$color-azul,$color-negro);
 }
 
 .contenedor-abajo  {
-    background-color: #0097B2;
+    background-color: $color-azul;
 }

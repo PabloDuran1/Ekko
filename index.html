@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ekko, más que un gimnasio.</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <!--LINK AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -18,7 +21,7 @@
     <nav>
         <ul class="lista-navegable">
             <li>
-                <a href="index.html"> Inicio </a>
+                <a class="index-header" href="index.html"> Inicio </a>
             </li>
 
             <li>
@@ -46,7 +49,9 @@
     <main>
         <section class="grid-containerindex">
             
-            <div class="grid-containerindex-1"> 
+            <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"class="grid-containerindex-1"> 
                 <h1 class="containerindex-titulo"> ¡Ekko, un gimnasio pensado para vos!</h1>
             </div>
             
@@ -100,6 +105,10 @@
             
 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>

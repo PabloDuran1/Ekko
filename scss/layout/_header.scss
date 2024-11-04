@@ -1,20 +1,22 @@
+@import '../utilities/variables';
+
 div {
     font-size: 1.5rem;
     text-align: center;
-    color:white;
-    background-color:#202128;
+    color:$color-blanco;
+    background-color:$color-negro;
  }
 
  .sticky {
     position:sticky;
     top:0px;
-    background-color: #202128;
+    background-color: $color-negro;
  }
 
  header {
-    background-color: #0097B2;
+    background-color: $color-azul;
     font-size: 1.5rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:$letra;
     display:flex;
     align-items: center;
     height:150px;
@@ -22,18 +24,18 @@ div {
     width:100%;
         a {
             text-decoration: none;
-            color:black;
+            color:$color-negro;
             font-size:30px;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family:$letra;
         }
 
         .todos-los-links {
-            background-color: #0097B2;
+            background-color: $color-azul;
         }
 
         .logo-header {
             padding:10px;
-            background-color: #0097B2;
+            background-color: $color-azul;
         }
 
         .logo-ekko {
@@ -44,7 +46,7 @@ div {
         .lista-navegable {
             list-style: none;
             display:flex;
-            border-top: solid 2px #202128;
+            border-top: solid 2px $color-negro;
             padding-right: 10px;
             padding-left: 0px;
 
