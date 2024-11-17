@@ -29,7 +29,7 @@
             border: solid 1px $color-blanco;
             border-radius: 8px;
             padding: 10px;
-            background-image: linear-gradient(to bottom,$color-negro, $color-azul);
+            background-image: linear-gradient(to bottom,$color-negro);
             }
     }
 
@@ -110,8 +110,8 @@
         font-family:$letra;
         font-size: 30px;
         display:flex;
-        color:$color-negro;
-        background-image: linear-gradient(to bottom, $color-blanco, $color-azul);
+        color:$color-blanco;
+        background-image: linear-gradient(to bottom, $color-negro, $color-azul);
         margin-top:40px;
         margin-bottom: 10px;
         border: solid 1px $color-negro;

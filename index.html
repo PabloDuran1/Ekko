@@ -8,57 +8,68 @@
 
     <!--LINK AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
+
+                                 <!--BODY -->
+
 <body>
 
     <div class="sticky"> 🔥¡Animate a entrenar distinto!🔥😎</div>
 
+
+                                <!--HEADER -->
+
 <header>
+    
     <div class="logo-header">
         <img src="assets/logorecortado-444.png" alt="logo ekko" class="logo-ekko">
     </div>
-<div class="todos-los-links">
-    <nav>
-        <ul class="lista-navegable">
-            <li>
-                <a class="index-header" href="index.html"> Inicio </a>
-            </li>
 
-            <li>
-                <a href="html/quienes_somos.html"> ¿Quienes somos?</a>
-            </li>
+    <div class="todos-los-links">
+        <nav>
+            <ul class="lista-navegable">
+                <li>
+                    <a class="index-header" href="index.html"> Inicio </a>
+                </li>
 
-            <li>
-                <a href="html/servicios.html"> Servicios</a>
-            </li>
+                <li>
+                    <a href="html/quienes_somos.html"> ¿Quienes somos?</a>
+                </li>
 
-            <li>
-                <a href="html/nuestros_planes.html"> Nuestros planes</a>
-            </li>
+                <li>
+                    <a href="html/servicios.html"> Servicios</a>
+                </li>
 
-            <li>
-                <a href="html/nuestros_alumnos.html"> Nuestros alumnos</a>
-            </li>
-        </ul>
+                <li>
+                    <a href="html/nuestros_planes.html"> Nuestros planes</a>
+                </li>
 
-    </nav>
-</div>
+                <li>
+                    <a href="html/nuestros_alumnos.html"> Nuestros alumnos</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
 </header>
 
+                             <!-- BODY -->
     <main>
         <section class="grid-containerindex">
             
-            <div data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"class="grid-containerindex-1"> 
+            <div class="grid-containerindex-1"> 
                 <h1 class="containerindex-titulo"> ¡Ekko, un gimnasio pensado para vos!</h1>
             </div>
             
             <div class="grid-containerindex-2">  
                 <p class="texto-atencion"> En Ekko buscamos darte la mejor atención al mejor precio, es por eso que tenemos los mejores espacio, el mejor staff y los mejores combos para llevar tu experiencia al máximo.</p>
-               
-                <a href="#id-contacto" class="boton-contacto">Contactanos</a>
+                    
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <a href="#id-contacto" class="boton-contacto">Contactanos</a>
+                    </div>
            
                 <p class="aclaracion-contacto"> Si querés comunicarte con un representante hacé click en el boton de arriba.</p>    
             </div>
@@ -71,7 +82,7 @@
             
             <div class="grid-containerindex-4"> 
                 
-                <p class="texto-entrenamiento"> No solo vas a recibir el mejor entreamiento seguido por los mejores profesionales, también te vas a encontrar con los un ambiente totalmente agradable, con los mejores compañeros y las mejores instalaciones.</p>
+                <p class="texto-entrenamiento"> No solo vas a recibir el mejor entrenamiento seguido por los mejores profesionales, también te vas a encontrar con los un ambiente totalmente agradable, con los mejores compañeros y las mejores instalaciones.</p>
 
                 <h4 class="lugar-esperando">El lugar que no sabías que necesitabas te está esperando</h4> 
             
@@ -80,7 +91,7 @@
         </section>
     </main> 
     
-
+                                 <!-- FOOTER -->
     <footer> 
         <h3 class="footer-contacto">¡Nosotros nos contactamos con vos!</h3>
             
@@ -88,27 +99,27 @@
 
         <form action="datos" class="formulario-datos">
             <label for="datos" class="formulario-nombre">Apellido y nombre</label>
-            <input type="text">
+            <input type="text" id="nombre">
 
             <label for="datos" class="formulario-numero">Número de teléfono</label>
-            <input type="number">
+            <input type="number" id="telefono">
 
             <label for="datos" class="formulario-aclaraciones">Aclaraciones</label>
-            <input type="text" class="input-aclaraciones">
+            <input type="text" class="input-aclaraciones" id="aclaraciones">
 
 
             <a href="html/contacto.html" class="boton-datos" target="_blank" id="id-contacto">Enviar</a>
-           
-           
-
         </form>
-            
-
+    
     </footer>
+                          
+    
+                                <!-- AOS -->
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 </html>

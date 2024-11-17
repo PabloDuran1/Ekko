@@ -5,66 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestros planes</title>
     <link rel="stylesheet" href="../css/style.css">
+
+                                <!--LINK AOS -->  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
+   
     <div class="sticky"> 🔥¡Animate a entrenar distinto!🔥😎</div>
 
+
+                                  <!--HEADER -->                           
 <header>
     <div class="logo-header">
         <img src="../assets/logorecortado-444.png" alt="logo ekko" class="logo-ekko">
     </div>
 
     <div class="todos-los-links">
-    <nav>
-        <ul class="lista-navegable">
-            <li>
-                <a href="../index.html"> Inicio </a>
-            </li>
+        <nav>
+            <ul class="lista-navegable">
+                <li>
+                    <a href="../index.html"> Inicio </a>
+                </li>
 
-            <li>
-                <a href="../html/quienes_somos.html"> ¿Quienes somos?</a>
-            </li>
+                <li>
+                    <a href="../html/quienes_somos.html"> ¿Quienes somos?</a>
+                </li>
 
-            <li>
-                <a href="../html/servicios.html"> Servicios</a>
-            </li>
+                <li>
+                    <a href="../html/servicios.html"> Servicios</a>
+                </li>
 
-            <li>
-                <a href="../html/nuestros_planes.html"> Nuestros planes</a>
-            </li>
+                <li>
+                    <a href="../html/nuestros_planes.html"> Nuestros planes</a>
+                </li>
 
-            <li>
-                <a href="../html/nuestros_alumnos.html"> Nuestros alumnos</a>
-            </li>
-        </ul>
+                <li>
+                    <a href="../html/nuestros_alumnos.html"> Nuestros alumnos</a>
+                </li>
+            </ul>
 
-    </nav>
+        </nav>
     </div>
 </header>
 
+                                     <!--BODY -->
+
 <main>
     <div>
-    <section class="principal-planes">
-         <h1 class="titulo-planes"> Como pensamos en vos, tenemos los mejores combos.</h1>
-        
-        <h3 class="oportunidad-planes">¡Aprovechalos, no te pierdas esta oportunidad! </h3>
+        <section class="principal-planes">
+            
+            <div data-aos="fade-right">
+                <h1 class="titulo-planes"> Como pensamos en vos, tenemos los mejores combos.</h1>
+            </div>
+            
+            <h3 class="oportunidad-planes">¡Aprovechalos, no te pierdas esta oportunidad! </h3>
 
-        <h4 class="combos-planes">Musculación + masajes</h4>
+            <h4 class="combos-planes">Musculación + masajes</h4>
 
-        <p class="texto-planes">¡Complementá tu sesión de musculación con una sesión de masajes mensual con este increible combo! Mes de musculación + 1 sesión de masajes al mes por solo  ¡$25.000!</p>
+            <p class="texto-planes">¡Complementá tu sesión de musculación con una sesión de masajes mensual con este increible combo! Mes de musculación + 1 sesión de masajes al mes por solo  ¡$25.000!</p>
 
-        <h4 class="combos-planes">Musculación + nutrición</h4>
-        <p class="texto-planes">¡Para llevar tu rendimiento al máximo combiná tu sesión de musculación con una consulta mensual gratuita con nuestro staff de nutrición! Mes de musculación + 1 consulta nutricional al mes solo por ¡$30.000!</p>
+            <h4 class="combos-planes">Musculación + nutrición</h4>
+            <p class="texto-planes">¡Para llevar tu rendimiento al máximo combiná tu sesión de musculación con una consulta mensual gratuita con nuestro staff de nutrición! Mes de musculación + 1 consulta nutricional al mes solo por ¡$30.000!</p>
 
-        <h4 class="combos-planes">Musculación + masajes + nutricion </h4>
-        <p class="texto-planes">Sí, leíste bien, podés combinar todo esto por solo ¡$33.000! 
+            <h4 class="combos-planes">Musculación + masajes + nutricion </h4>
+            <p class="texto-planes">Sí, leíste bien, podés combinar todo esto por solo ¡$33.000! 
             Un mes de musculación + 1 sesión nutricional mensual + 1 sesión de masajes por ese preciazo, ¡aprovechalo ya!
-        </p>
+            </p>
+        </section>
     </div>
 
-    </section>
-</main>
     
 
     <section class="secundaria_planes">
@@ -74,30 +85,37 @@
 
     </section>
 
-    <footer> 
-        <h3 class="footer-contacto">¡Nosotros nos contactamos con vos!</h3>
+</main>    
+                
+                                        <!--FOOTER -->
+<footer> 
+    <h3 class="footer-contacto">¡Nosotros nos contactamos con vos!</h3>
             
-        <p class="datos-footer">¡Dejanos tus datos, y a la brevedad te estará llegando un mensaje de parte de nuestro staff para que te saques todas tus dudas!</p>
+    <p class="datos-footer">¡Dejanos tus datos, y a la brevedad te estará llegando un mensaje de parte de nuestro staff para que te saques todas tus dudas!</p>
 
-        <form action="datos" class="formulario-datos">
-            <label for="datos" class="formulario-nombre">Apellido y nombre</label>
-            <input type="text">
+    <form action="datos" class="formulario-datos">
+        <label for="datos" class="formulario-nombre">Apellido y nombre</label>
+        <input type="text" id="nombre">
 
-            <label for="datos" class="formulario-numero">Número de teléfono</label>
-            <input type="number">
+        <label for="datos" class="formulario-numero">Número de teléfono</label>
+        <input type="number" id="telefono">
 
-            <label for="datos" class="formulario-aclaraciones">Aclaraciones</label>
-            <input type="text" class="input-aclaraciones">
+        <label for="datos" class="formulario-aclaraciones">Aclaraciones</label>
+        <input type="text" class="input-aclaraciones" id="aclaraciones">
 
 
-            <a href="html/contacto.html" class="boton-datos" target="_blank" id="id-contacto">Enviar</a>
-           
-           
-
-        </form>
+        <a href="html/contacto.html" class="boton-datos" target="_blank" id="id-contacto">Enviar</a>
+    </form>
             
+</footer>
 
-    </footer>
 
+                                <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        
+        </script>
 </body>
 </html>

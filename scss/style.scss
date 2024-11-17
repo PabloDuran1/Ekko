@@ -71,8 +71,8 @@
 
 
 /* Utilities */
-@use './utilities/animaciones';
-@use './utilities/variables';
+@use './utilities/animaciones' as *;
+@use './utilities/variables' as*;
 
 
 

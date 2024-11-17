@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Nuestros servicios</title>
     <link rel="stylesheet" href="../css/style.css">
+
+                                <!--LINK AOS -->  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
     
     <div class="sticky"> 🔥¡Animate a entrenar distinto!🔥😎</div>
+
+                                
+                                <!--HEADER -->     
 
 <header>
     <div class="logo-header">
@@ -17,79 +24,80 @@
     </div>
 
     <div class="todos-los-links">
-    <nav>
-        <ul class="lista-navegable">
-            <li>
+        <nav>
+            <ul class="lista-navegable">
+                <li>
                 <a href="../index.html"> Inicio </a>
-            </li>
+                </li>
 
-            <li>
-                <a href="../html/quienes_somos.html"> ¿Quienes somos?</a>
-            </li>
+                <li>
+                    <a href="../html/quienes_somos.html"> ¿Quienes somos?</a>
+                </li>
 
-            <li>
-                <a href="../html/servicios.html"> Servicios</a>
-            </li>
+                <li>
+                    <a href="../html/servicios.html"> Servicios</a>
+                </li>
 
-            <li>
-                <a href="../html/nuestros_planes.html"> Nuestros planes</a>
-            </li>
+                <li>
+                    <a href="../html/nuestros_planes.html"> Nuestros planes</a>
+                </li>
 
-            <li>
-                <a href="../html/nuestros_alumnos.html"> Nuestros alumnos</a>
-            </li>
-        </ul>
-
-    </nav>
+                <li>
+                    <a href="../html/nuestros_alumnos.html"> Nuestros alumnos</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </header>
+
+                                    <!--BODY -->
 
 <main>
  
     <section class="grid-containerservicios">
         
-        <section class="grid-containerservicios1">  
-            <h1 class="titulo-servicios"> Te mostramos un poco de los servicios que disponemos.</h1>
+        <section class="grid-containerservicios1">
+            <div data-aos="fade-up"> 
+                 <h1 class="titulo-servicios"> Te mostramos un poco de los servicios que disponemos.</h1>
+            </div> 
         </section>
 
-
         <section class="grid-containerservicios2">
+            
             <h3 class="musculacion-titulo">Nuestro salón de musculación.</h3>
-    
+
             <img src="../assets/musculacion.jpg" alt="musculacion jpg" class="imagen-musculacion">
         </section>
 
         <section class="grid-containerservicios2texto" >
-            
-                <p class="texto-musculacion"> Nuestra sala de musculación está equipada con todo lo que necesitas para tener el mejor entrenamiento, fuerza, potencia, resistencia, no importa qué, nosotros lo tenemos.</p>
+            <p class="texto-musculacion"> Nuestra sala de musculación está equipada con todo lo que necesitas para tener el mejor entrenamiento, fuerza, potencia, resistencia, no importa qué, nosotros lo tenemos.</p>
         </section>
 
 
         <section class="grid-containerservicios3">
+        
             <h3 class="titulo-nutricion">Complementá con nutrición</h3>
 
             <img src="../assets/nutricion.jpg" alt="nutricion png"class="imagen-nutricion">
             
             <p class="texto-nutricion">Disponemos del lugar más cómodo y los mejores profesionales para que complementes tus actividades con una buena alimentación para optimizar tus resultados y rendir al màximo.</p>
-
-
         </section>
         
         
         <section class="grid-containerservicios4" >
-
             <h3 class="titulo-masajes">Nuestra sala de masajes.</h3>
     
             <img src="../assets/masajes.webp" alt="masajes png" class="imagen-masajes" >
         </section>
 
         <section class="grid-containerservicios4texto">
-            
             <p class="texto-masajes">Contamos con el mejor espacio para que te relajes como nunca, y con los mejores profesionales para brindarte un masaje deportivo, relajante o descontracturante.</p>
         </section>
     
     </section>
 </main>    
+
+                                    <!--FOOTER -->
 
 <footer> 
     <h3 class="footer-contacto">¡Nosotros nos contactamos con vos!</h3>
@@ -98,24 +106,23 @@
 
     <form action="datos" class="formulario-datos">
         <label for="datos" class="formulario-nombre">Apellido y nombre</label>
-        <input type="text">
+        <input type="text" id="nombre">
 
         <label for="datos" class="formulario-numero">Número de teléfono</label>
-        <input type="number">
+        <input type="number" id="telefono">
 
         <label for="datos" class="formulario-aclaraciones">Aclaraciones</label>
-        <input type="text" class="input-aclaraciones">
+        <input type="text" class="input-aclaraciones" id="aclaraciones">
 
 
         <a href="html/contacto.html" class="boton-datos" target="_blank" id="id-contacto">Enviar</a>
-       
-       
-
     </form>
-        
-
 </footer>
-
-
+  
+                          <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html>

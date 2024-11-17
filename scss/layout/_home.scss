@@ -46,9 +46,9 @@
                 }
 
                 .boton-contacto {
-                    background-image: linear-gradient(to right,$color-azul,$color-negro);
+                    background-image: linear-gradient(to bottom,$color-negro, $color-azul);
                     justify-content: center;
-                    color:#202128;
+                    color:$color-blanco;
                     font-family:$letra;
                     font-size: 35px;
                     padding: 15px;
