@@ -1,4 +1,5 @@
 @import '../utilities/variables';
+@import '../utilities/mixins' ;
 
 .grid-containerindex {
     display:grid;
@@ -46,23 +47,7 @@
                 }
 
                 .boton-contacto {
-                    background-image: linear-gradient(to bottom,$color-negro, $color-azul);
-                    justify-content: center;
-                    color:$color-blanco;
-                    font-family:$letra;
-                    font-size: 35px;
-                    padding: 15px;
-                    border:none;
-                    border-radius: 10px;
-                    text-decoration:none;
-                    transition: 1s;
-
-
-                    &:hover {
-                        background-image: linear-gradient(to right,$color-azul, $color-blanco);
-                        color: $color-azul;
-                    
-                    }
+                    @include botones-base(15px, 35px);
                 }
                 
                 .aclaracion-contacto {

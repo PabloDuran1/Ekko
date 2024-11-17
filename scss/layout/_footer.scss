@@ -1,4 +1,5 @@
 @import '../utilities/variables';
+@import '../utilities/mixins' ;
 
 footer {
     background-color: $color-negro;
@@ -58,26 +59,10 @@ form input {
         background-color: $color-azul;
             }
         }
-    }
+    
 
-
-
-.boton-datos {
-    background-image: linear-gradient(to right,$color-azul,$color-negro);
-    color:$color-negro;
-    font-family: $letra;
-    font-size: 20px;
-    margin-top:10px;
-    padding: 12px;
-    border:none;
-    border-radius: 10px;
-    text-decoration:none;
-    transition:1s;
-
-    &:hover {
-        background-image: linear-gradient(to right,$color-azul,$color-blanco);
-        color: $color-azul;
+   .boton-datos {
+    @include botones-base(12px,20px);
         }
     }
 }
-

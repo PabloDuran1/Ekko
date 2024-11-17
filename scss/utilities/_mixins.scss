@@ -1,0 +1,27 @@
+@import '../utilities/variables';
+
+@mixin botones-base($padding, $font-size) {
+    background-image: linear-gradient(to bottom, $color-negro, $color-azul);
+    justify-content: center;
+    color:$color-blanco;
+    font-family:$letra;
+    padding: $padding;
+    font-size: $font-size;
+    border:none;
+    border-radius: 10px;
+    text-decoration:none;
+    transition: 1s;
+
+        &:hover {
+            background-image: linear-gradient(to right, $color-azul, $color-blanco);
+            color: $color-azul;
+        }
+    }
+
+    .boton-contacto { 
+        @include botones-base(15px, 35px);
+     }
+
+    .boton-datos {
+        @include botones-base(12px,20px);
+    }

@@ -74,6 +74,40 @@ header .lista-navegable li {
 }
 
 /* FOOTER */
+.boton-contacto {
+  background-image: linear-gradient(to bottom, #202128, #0097B2);
+  justify-content: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 15px;
+  font-size: 35px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 1s;
+}
+.boton-contacto:hover {
+  background-image: linear-gradient(to right, #0097B2, white);
+  color: #0097B2;
+}
+
+.boton-datos {
+  background-image: linear-gradient(to bottom, #202128, #0097B2);
+  justify-content: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 1s;
+}
+.boton-datos:hover {
+  background-image: linear-gradient(to right, #0097B2, white);
+  color: #0097B2;
+}
+
 footer {
   background-color: #202128;
   text-align: center;
@@ -125,24 +159,58 @@ footer .formulario-datos form input {
 footer .formulario-datos form input:focus {
   background-color: #0097B2;
 }
-footer .boton-datos {
-  background-image: linear-gradient(to right, #0097B2, #202128);
-  color: #202128;
+footer .formulario-datos .boton-datos {
+  background-image: linear-gradient(to bottom, #202128, #0097B2);
+  justify-content: center;
+  color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 20px;
-  margin-top: 10px;
   padding: 12px;
+  font-size: 20px;
   border: none;
   border-radius: 10px;
   text-decoration: none;
   transition: 1s;
 }
-footer .boton-datos:hover {
+footer .formulario-datos .boton-datos:hover {
   background-image: linear-gradient(to right, #0097B2, white);
   color: #0097B2;
 }
 
 /* HOME */
+.boton-contacto {
+  background-image: linear-gradient(to bottom, #202128, #0097B2);
+  justify-content: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 15px;
+  font-size: 35px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 1s;
+}
+.boton-contacto:hover {
+  background-image: linear-gradient(to right, #0097B2, white);
+  color: #0097B2;
+}
+
+.boton-datos {
+  background-image: linear-gradient(to bottom, #202128, #0097B2);
+  justify-content: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 1s;
+}
+.boton-datos:hover {
+  background-image: linear-gradient(to right, #0097B2, white);
+  color: #0097B2;
+}
+
 .grid-containerindex {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -188,8 +256,8 @@ footer .boton-datos:hover {
   justify-content: center;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 35px;
   padding: 15px;
+  font-size: 35px;
   border: none;
   border-radius: 10px;
   text-decoration: none;
@@ -2425,6 +2493,40 @@ footer .boton-datos:hover {
   animation-timing-function: linear;
   animation-duration: 3s;
   animation-delay: 0.5s;
+}
+
+.boton-contacto {
+  background-image: linear-gradient(to bottom, #202128, #0097B2);
+  justify-content: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 15px;
+  font-size: 35px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 1s;
+}
+.boton-contacto:hover {
+  background-image: linear-gradient(to right, #0097B2, white);
+  color: #0097B2;
+}
+
+.boton-datos {
+  background-image: linear-gradient(to bottom, #202128, #0097B2);
+  justify-content: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 1s;
+}
+.boton-datos:hover {
+  background-image: linear-gradient(to right, #0097B2, white);
+  color: #0097B2;
 }
 
 /*# sourceMappingURL=style.css.map */
