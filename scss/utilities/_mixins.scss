@@ -1,6 +1,8 @@
 @import '../utilities/variables';
 
 @mixin botones-base($padding, $font-size) {
+    display: inline-block;
+    margin:auto;
     background-image: linear-gradient(to bottom, $color-negro, $color-azul);
     justify-content: center;
     color:$color-blanco;
